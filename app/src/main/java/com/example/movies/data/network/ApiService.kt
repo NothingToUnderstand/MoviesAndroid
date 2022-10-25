@@ -5,6 +5,6 @@ import retrofit2.Response
 import retrofit2.http.GET
 
 interface ApiService {
-    @GET("/shows/1")
+    @GET("/shows")
     suspend fun getAllMovies():Response<List<Movies>>
 }
